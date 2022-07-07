@@ -39,6 +39,9 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     
     # third party apps
+    'django_registration',
+    
+    # local apps
     'authapp',
 ]
 
@@ -121,3 +124,12 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/2.2/howto/static-files/
 
 STATIC_URL = '/static/'
+# STATIC
+# Django Registration settings
+ACCOUNT_ACTIVATION_DAYS = 3
+
+# EMAIL = 'django.core.mail.backends.console.Emailbackend'
+# ACCOUNT_EMAIL_VERIFICATION = 'none'
+
+EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
+ACCOUNT_EMAIL_VERIFICATION = "none"
