@@ -111,7 +111,7 @@ AUTH_PASSWORD_VALIDATORS = [
 
 LANGUAGE_CODE = 'en-us'
 
-TIME_ZONE = 'UTC'
+TIME_ZONE = 'Africa/Nairobi'
 
 USE_I18N = True
 
@@ -131,7 +131,16 @@ ACCOUNT_ACTIVATION_DAYS = 3
 # EMAIL = 'django.core.mail.backends.console.Emailbackend'
 # ACCOUNT_EMAIL_VERIFICATION = 'none'
 
+# Email configurations
 EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
+EMAIL_HOST = 'smtp.gmail.com'
+EMAIL_PORT = '2525'
+EMAIL_HOST_USER = ''
+EMAIL_HOST_PASSWORD = ''
+EMAIL_USE_TLS = True
+EMAIL_USE_SSL = False
+
+
 ACCOUNT_EMAIL_VERIFICATION = "none"
 REDIRECT_FIELD_NAME = '/'
 LOGIN_REDIRECT_URL='/'
