@@ -1,9 +1,9 @@
 from django.urls import path
 
 from authapp.views import (
-    AuthView
+    IndexView
 )
 
 urlpatterns = [
-    path('', AuthView.as_view(), name="home")
+    path('', IndexView.as_view(), name="home")
 ]

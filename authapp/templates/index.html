@@ -1,0 +1,6 @@
+{% extends 'base.html' %}
+
+
+{% block content %}
+<h2 class="text-center">Welcome to the page {% if user %} {{user}} {% else %} <p>random user</p> {% endif %}</h3>
+{% endblock content %}
