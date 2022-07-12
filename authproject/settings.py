@@ -133,3 +133,5 @@ ACCOUNT_ACTIVATION_DAYS = 3
 
 EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 ACCOUNT_EMAIL_VERIFICATION = "none"
+REDIRECT_FIELD_NAME = '/'
+LOGIN_REDIRECT_URL='/'

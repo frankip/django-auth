@@ -2,5 +2,5 @@ welcome to this site {{ user}}
 Thanks for registering an account with us 
 but first you need to verify your email account before we proceed
 click on the link below to activate 
-{{scheme}}://{{site}}activate/{{ activation_key}}
+{{scheme}}://{{site}}/accounts/activate/{{ activation_key}}
 
